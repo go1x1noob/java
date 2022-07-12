@@ -6,7 +6,7 @@ public class ConsoleApp
 {
     public static void main(String[] args) 
     {
-        DateFormat format = new SimpleDateFormat("hh:mm a MM/dd/yyyy");
+        DateFormat format = new SimpleDateFormat("HH:mm dd/MM/yyyy");
         Date date = new Date();
         System.out.println(format.format(date));
     }
